@@ -1,0 +1,111 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+# Updated for Node.js backend projects
+################################################################################
+
+# Visual Studio
+/.vs
+
+# Node.js dependencies
+/node_modules/
+/jspm_packages/
+
+# Build outputs
+/dist
+/build
+/bin
+/obj
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+/coverage
+
+# Debug files
+*.lcov
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js / Nuxt / Remix / SvelteKit / Astro builds
+.next
+.nuxt
+out
+.svelte-kit
+/.astro
+
+# VSCode settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# IDE specific
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac & Linux system files
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment files
+.env.test
+.env.production
+.env.development
+
+# Misc
+*.tgz
+*.bak
+*.tmp
+*.orig
+
+# PM2 logs and dumps
+.pm2/logs
+.pm2/pids
+.pm2/pm2.log
+.pm2/pm2.pid
+.pm2/pm2.err
+.pm2/dump.pm2
+
+
+
+
+
+/config/images
