@@ -17,6 +17,7 @@ import imageUplodeRouter from './route/image_uplode.routes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import routes from './route/paymentRoutes.js';
 import { authenticateToken, authorizeAdmin } from './middleware/auth.middleware.js';
 
 dotenv.config()
@@ -110,6 +111,8 @@ app.use('/api/address', addressRouter);
 // Admin-only routes
 app.use('/api/admin/users', UserRoute);
 app.use('/api/image-upload', imageUplodeRouter);
+app.use("/api/payment", routes);
+
 
 console.log('All routes registered');
 
